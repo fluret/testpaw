@@ -18,6 +18,8 @@ app = Dash(
     external_stylesheets=[url_theme2],
 )
 
+server = app.server
+
 theme_toggle = ThemeSwitchAIO(
     aio_id="theme",
     themes=[url_theme2, url_theme1],
